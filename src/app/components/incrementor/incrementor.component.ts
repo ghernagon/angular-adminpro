@@ -14,10 +14,6 @@ export class IncrementorComponent {
 
   constructor() { }
 
-  // get getProgress() {
-  //   return `${this.progress}%`;
-  // }
-
   changeProgress(value: number) {
     let newValue = this.progress + value;
     if (newValue >= 0 && newValue <= 100) {

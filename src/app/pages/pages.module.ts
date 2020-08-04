@@ -10,7 +10,6 @@ import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { ComponentsModule } from '../components/components.module';
 
-
 @NgModule({
   declarations: [
     DashboardComponent,
